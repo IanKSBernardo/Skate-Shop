@@ -371,9 +371,27 @@ footer p{
     }
 }
 
-@media (min-width: 650px){
+@media (max-width: 280px){
     .mensaje-container textarea{
-        min-width: 500px;
+        max-width: 200px;
+    }
+}
+
+@media (min-width: 280px){
+    .mensaje-container textarea{
+        max-width: 200px;
+    }
+}
+
+@media (min-width: 415px){
+    .mensaje-container textarea{
+        min-width: 300px;
+    }
+}
+
+@media (min-width: 640px){
+    .mensaje-container textarea{
+        min-width: 400px;
     }
 }
 
